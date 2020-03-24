@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+  <head>
     <!--The below meta tag <meta charset= "UTF-8"> enables the HTML document to support all the languages that exist on Earth. Without this tag, a browser may not be able to correctly display any characters that don't belong to the basic Latin alphabet. -->
     <meta charset="utf-8">
     <!--The below meta tag tells intertnet explorer to use the latest rendering engine -->
@@ -19,59 +19,73 @@
     <!-- CDN for Glyphicons. A CDN is a service that accelerates internet content delivery -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo" crossorigin="anonymous">
+    <!-- github logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-
+  
 </head>
 
 <body class = "backgroundPic">
 
 <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="index.html">
-            <img src = "cmlogo.jpg" width = "65" height="65" alt = "logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="aboutme.html">About Me <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="resume.html">Resume/Projects</a>
-            <a class="nav-item nav-link" href="contactme.html">Contact Me</a>
-            <!--<a class="nav-item nav-link disabled" href="#">Disabled</a>-->
-          </div>
-          <!-- github, linkedin -->
-          <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-              <ul class = "navbar-nav mr-auto"></ul>
-                <a href = "https://www.linkedin.com/in/chuemoua1" target="_blank" class = "btn btn-secondary btn-sm" role="button" aria-pressed="true">Linkedin</a>
-                <a href = "https://github.com/chuemoua3" target="_blank" class = "btn btn-secondary btn-sm" role="button" aria-pressed="true">Github</a>
-          </div>
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html">
+        <img src = "cmlogo.jpg" width = "65" height="65" alt = "logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="aboutme.html">About Me <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="resume.html">Resume/Projects</a>
+        <a class="nav-item nav-link" href="contactme.html">Contact Me</a>
+        <!--<a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+      </div>
+      <!-- github, linkedin -->
+      <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+          <ul class = "navbar-nav mr-auto"></ul>
+            <a href = "https://www.linkedin.com/in/chuemoua1" target="_blank" class = "btn btn-secondary btn-sm" role="button" aria-pressed="true">Linkedin</a>
+            <a href = "https://github.com/chuemoua3" target="_blank" class = "btn btn-secondary btn-sm" role="button" aria-pressed="true">Github</a>
+      </div>
+    </div>
+  </nav>
+ <br>
+ <br>
+<br>
+<br>
 
-      <br>
-      <br>
-     <br>
-     <br>
-     
-       <!-- Jumbotron -->
-           <div class="jumbotron">
-             <h1 class="display-3">Resume/Projects</h1>
-           </div>
-     
-<!-- CHECK WHY THIS DOES NOT WORK -->
-<div class = "container">
+  <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-3 tracking-in-expand-fwd-top">Resume/Projects</h1>
+      </div>
+
+<br>
+<br>
+<br>
+<!--<div class ="container">
     <div class = "row">
         <div col-sm-4>
-        <center><a href = "C.Moua.pdf" download class = "btn btn-secondary btn-sm active" role = "button" aria-pressed="true">Download Resume</a></center>
+            <p class = "paragraph tracking-in-expand-fwd-top"><a href = "C.Moua.pdf" download class = "btn btn-secondary btn-sm active" role = "button" aria-pressed="true">Download Resume</a></p>
+            
         </div>
     </div>
 </div>
 
+<!-- -------------------------------------------------------- -->
 
 
+      <br>
+
+      <div class="container px-lg-5">
+        <div class="row mx-lg-n5">
+          <div class="col"><a href = "C.Moua.pdf" download class = "btn btn-secondary btn-sm active" role = "button" aria-pressed="true">Download Resume</a></div>
+
+        </div>
+      </div>
 
 
+<!-- footer starts -->
 <footer class = "container-fluid fixed-bottom">
     <div class = "flex-direction: column">
         <center>
@@ -80,12 +94,11 @@
     </div>
 </footer>
 
-
-    <!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <!-- jQuery Core 3.4.1 -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -21,6 +21,13 @@
 .display1{
     text-align: center;
 }
+.container-fluid{
+  font-style: italic;
+  font-weight: bold;
+}
+.img_box{
+  box-shadow: 10px 10px 5px black;
+}
 
 
 
